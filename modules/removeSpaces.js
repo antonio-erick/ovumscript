@@ -1,4 +1,3 @@
-// Repeatedly removes whitespace from a string
 exports.removeSpaces = function removeSpaces(string) {
 	// Whitespace to be removed
 	const first = string.search(/\S/);

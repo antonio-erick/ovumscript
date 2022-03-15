@@ -1,2 +1,1 @@
-# ovale
-Programming language built using JavaScript
+# Ovale ![GitHub](https://img.shields.io/github/license/antonio-erick/ovale)

@@ -12,7 +12,6 @@ specialForms.do = (args, scope) => {
   let value = false;
 
   for (const arg of args) {
-    console.log('\n\n\n', args, '\n', arg);
     value = exports.evaluate(arg, scope);
   };
   // Do returns the last value produced
@@ -71,7 +70,6 @@ specialForms.function = function(args, scope) {
 };
 
 exports.evaluate = function(expr, scope) {
-  console.log(scope);
   // A value expression produces its own value
   if (expr.type === 'value') {
     return expr.value;

@@ -27,5 +27,14 @@ do(
 )
 `)
 ```
+```js
+run(`
+do(
+  define(toDoList, array("Clean the dishes", "Feed the dog", "Do the homework")),
+  define(firstChore, element(toDoList, 1)),
+  print(firstChore)
+)
+`)
+```
 ## License
 OvumScript is MIT licensed

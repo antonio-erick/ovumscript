@@ -1,7 +1,7 @@
 exports.skipSpace = function (string) {
   // All the whitespaces before the first
   // non-whitespace element
-  const firstWhitespaces = string.search(/\S/);
+  const firstWhitespaces = string.search(/[^#\s]/);
   // Verifying if it's an empty string
   if (firstWhitespaces == -1) return '';
   // Returns the string without whitespaces

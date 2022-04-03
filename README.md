@@ -1,5 +1,5 @@
 # OvumScript ![PRs](https://img.shields.io/badge/PRs-welcome-green)
-This is the source code for OvumScript, a programming language built using JavaScript. OvumScript was built with code from [Eloquent Javascript](https://eloquentjavascript.net/), by Marijn Haverbeke. 
+This is the source code of OvumScript, a programming language built using JavaScript. Most of OvumScript's code is from [Eloquent Javascript](https://eloquentjavascript.net/), by Marijn Haverbeke. 
 ## Installation
 1. Clone the source with `git`:
 ```
